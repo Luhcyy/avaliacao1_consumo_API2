@@ -1,5 +1,4 @@
 import requests
-import json
 
 # Consulta GraphQL para buscar por ID
 fetch_query = '''
@@ -50,10 +49,6 @@ def fetchData(id):
     response.raise_for_status()  
     return response.json()
   
-  
-def saveData(filename, data):
-    with open(filename, 'w') as f:
-        json.dump(data, f, indent=4)
     
 def searchAnimesByName(searchTerm):
     variables = {'search': searchTerm}

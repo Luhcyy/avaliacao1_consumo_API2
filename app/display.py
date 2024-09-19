@@ -2,7 +2,6 @@ def displaySearchData(data):
     """
     Exibe as informações dos animes a partir dos dados fornecidos.
 
-    :param data: Dados JSON contendo as informações dos animes.
     """
     animes = data.get('data', {}).get('Page', {}).get('media', [])
     if not animes:
@@ -17,8 +16,7 @@ def displaySearchData(data):
 def displayIdData(data):
     """
     Exibe as informações de um único anime a partir dos dados fornecidos.
-
-    :param data: Dados JSON contendo as informações do anime.
+    
     """
     anime = data.get('data', {}).get('Media', {})
     if not anime:
