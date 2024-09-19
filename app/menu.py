@@ -5,7 +5,7 @@ from clear import clearScreen
 def displayMenu ():
     
     while True:
-        print('Boas-vindas ao catalago de animes!\n')
+        print('Boas-vindas ao catalogo de animes!\n')
         print ('Escolha uma opção para começar: \n')
         print('1 - buscar anime por nome\n')
         print('2 - buscar anime por ID\n')
@@ -30,7 +30,10 @@ def displayMenu ():
                 input("Pressione Enter para voltar ao menu...\n")
                 clearScreen()
             except  ValueError:
+                clearScreen()
                 print("ID inválido. Por favor, insira um número válido.")
+                input("Pressione Enter para voltar ao menu...\n")
+                clearScreen()
         elif op == '3':
             print("Saindo...")
             break

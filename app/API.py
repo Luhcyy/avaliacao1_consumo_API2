@@ -16,8 +16,6 @@ query ($id: Int) {
       year
     }
     episodes
-    tag
-    genre
   }
 }
 '''
