@@ -132,7 +132,7 @@
 
   Pressione Enter para ao menu...  
   ```
-  ## Por enquanto é só! :skull:
+  ## Por enquanto é só! 🏴‍☠️
   ### Muito Obrigado por ler até aqui.
   <img src="https://gifdb.com/images/high/happy-farewell-kid-luffy-qwl2ued5zqgtt859.webp" alt="Kid Luffy giving a farewell" width="500" />
   
