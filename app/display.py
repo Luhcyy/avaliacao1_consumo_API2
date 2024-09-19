@@ -28,6 +28,7 @@ def displayIdData(data):
         print("Titulo (Romaji):", anime.get('title', {}).get('romaji'))
         print("Titulo (Inglês):", anime.get('title', {}).get('english'))
         print("Titulo (Nativo):", anime.get('title', {}).get('native'))
+        print("Número de Episódios:", anime.get('episodes', {}))
         print("Data de lançamento:", anime.get('startDate', {}).get('year'), '\n')
         print("descrição (Inglês):", anime.get('description'), '\n')
 

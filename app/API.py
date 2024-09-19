@@ -15,6 +15,9 @@ query ($id: Int) {
     startDate {
       year
     }
+    episodes
+    tag
+    genre
   }
 }
 '''
